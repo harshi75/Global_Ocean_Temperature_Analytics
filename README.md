@@ -27,6 +27,23 @@ The original NetCDF dataset is not included in this repository because it exceed
 Download the dataset manually and place it in:
 
 data/sst.mnmean.nc
+## Dataset
+
+This project uses the NOAA Extended Reconstructed Sea Surface Temperature (ERSST v5) dataset.
+
+Due to GitHub's 100 MB file size limit, the original dataset is not included in this repository.
+
+Download the dataset from NOAA and place it inside the `data/` folder:
+
+Dataset file:
+
+sst.mnmean.nc
+
+Source:
+
+https://downloads.psl.noaa.gov/Datasets/noaa.ersst.v5/
+
+Then run the analytics pipeline or launch the Streamlit dashboard.
 
 ## 🛠️ Tech Stack
 
